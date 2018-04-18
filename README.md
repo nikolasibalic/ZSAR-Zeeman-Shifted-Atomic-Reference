@@ -27,7 +27,7 @@ File list and assembly
 |:----:|:---|:------:|:------:|:------:|:------:|
 | #1 | magnet | .step, .stl, | NdFeB |  [first4magnets](https://www.first4magnets.com/) | x2, opposite polarity |
 | #2 | magnet_holder  | .step, .stl | brass | CNC milling | x2 |
-| #3 | handle |    .step, .iges, .stl, .pdf | brass | CNC milling | x2 |
+| #3 | handle |    .step, .stl, | brass | CNC milling | x2 |
 | #4 | magnet_body_holder | .step, .stl | aluminium | CNC milling, sand blasted | x2 |
 | #5 | magnet_base_separator | .step, .stl, | aluminium | CNC milling, sand blasted | x1 |
 | #6 | top_magnet_holder_separator | .step, .stl, | aluminium | CNC milling, sand blasted | x1|
@@ -35,7 +35,7 @@ File list and assembly
 Click on individual .stl files in `parts/` folder to *see 3D parts* in browser.
 Technical drawings for all parts are provided in `parts/technical_drawings.pdf`.
 Schematics of *full assembly* is provided in `assembly/`.
-Photo of *assembled setup* setup is provided in `assembly/photo.jpg`.
+Photo of *assembled setup* setup is provided in `assembly/photo_of_assembly.jpg`.
 
 Note that two magnets have their north and south poles oriented such that
 they form Helmholtz pair.
@@ -45,9 +45,12 @@ they form Helmholtz pair.
 Reference / Cite as
 -------------------
 
-Original design: Massayuki Kondo; Modifications: Dominic Reed
+Original design: [Massayuki Kondo](http://www.atomobrasil.com/)
+(Federal University of Santa Catarina, UFSC, Florianópolis, Brasil);
+Modifications: [Dominic Reed](https://www.jqc.org.uk/members/dominic-reed/)
+(Durham University, Durham, UK)
 
-**Cite as:** *Insert  full citation, arXiv:**,
+**Cite as:** *arXiv: reference to be added soon*,
 
 
 Licence
