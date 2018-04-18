@@ -1,8 +1,6 @@
 High magnetic field atomic spectroscopy (up to 1 Tesla)
 =======================================================
 
-** FILES WILL BE UPLOADED SOON **
-
 Design of a custom permanent magnet pair and their holder that
 allows application of the magnetic fields of up to 1 T
 in the gap between the magnets.
@@ -19,23 +17,30 @@ Signal is generated from sub-Doppler spectroscopy of atomic transitions,
 has low drift siutable for atomic physics experiments, and can be controllably
 tuned in wide range of frequencies. For more details see reference below.
 
+![assembly_completed](assembly/assembly_completed.png)
 
 File list and assembly
 ----------------------
 
 
-| Label   |      Title      |  File types | Material | Manufacturing method/supplier|
-|:----:|:---|:------:|:------:|:------:|
-| #1 |  magnet_left | .step, .iges, .stl, .pdf | NdFeB |  [first4magnets](https://www.first4magnets.com/) |
-| #2 |    magnet_right   |   .step, .iges, .stl, .pdf | NdFeB | [first4magnets](https://www.first4magnets.com/) |
-| #3 | main_body |    .step, .iges, .stl, .pdf | aluminium | CNC milling, sand blasted |
-| #4 | magnet_holder |    .step, .iges, .stl, .pdf | brass | CNC milling |
-| #5 | handle |    .step, .iges, .stl, .pdf | brass | CNC milling |
-
+| Label   |      Title      |  File types | Material | Manufacturing method/supplier| Quantity |
+|:----:|:---|:------:|:------:|:------:|:------:|
+| #1 | magnet | .step, .stl, | NdFeB |  [first4magnets](https://www.first4magnets.com/) | x2, opposite polarity |
+| #2 | magnet_holder  | .step, .stl | brass | CNC milling | x2 |
+| #3 | handle |    .step, .iges, .stl, .pdf | brass | CNC milling | x2 |
+| #4 | magnet_body_holder | .step, .stl | aluminium | CNC milling, sand blasted | x2 |
+| #5 | magnet_base_separator | .step, .stl, | aluminium | CNC milling, sand blasted | x1 |
+| #6 | top_magnet_holder_separator | .step, .stl, | aluminium | CNC milling, sand blasted | x1|
 
 Click on individual .stl files in `parts/` folder to *see 3D parts* in browser.
-Schematics of *full assembly* is provided in `assembly/file name*`.
-Photo of *assembled setup* setup is provided in `assembly/file name`.
+Technical drawings for all parts are provided in `parts/technical_drawings.pdf`.
+Schematics of *full assembly* is provided in `assembly/`.
+Photo of *assembled setup* setup is provided in `assembly/photo.jpg`.
+
+Note that two magnets have their north and south poles oriented such that
+they form Helmholtz pair.
+
+![assembly_completed](assembly/assembly_exploded_view.png)
 
 Reference / Cite as
 -------------------
