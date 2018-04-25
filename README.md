@@ -50,7 +50,7 @@ Original design: [Massayuki Kondo](http://www.atomobrasil.com/)
 Modifications: [Dominic Reed](https://www.jqc.org.uk/members/dominic-reed/)
 (Durham University, Durham, UK)
 
-**Cite as:** *arXiv: reference to be added soon*,
+**Cite as:** [D. J. Reed, N. Šibalić, D. J. Whiting, J. M. Kondo, C. S. Adams, K. J. Weatherill, "Low-drift Zeeman shifted atomic frequency reference", arXiv:1804.07928](https://arxiv.org/abs/1804.07928).
 
 
 Licence
