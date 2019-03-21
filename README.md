@@ -25,17 +25,17 @@ File list and assembly
 
 | Label   |      Title      |  File types | Material | Manufacturing method/supplier| Quantity |
 |:----:|:---|:------:|:------:|:------:|:------:|
-| #1 | magnet | .step, .stl, | NdFeB |  [first4magnets](https://www.first4magnets.com/) | x2, opposite polarity |
-| #2 | magnet_holder  | .step, .stl | brass | CNC milling | x2 |
-| #3 | handle |    .step, .stl, | brass | CNC milling | x2 |
-| #4 | magnet_body_holder | .step, .stl | aluminium | CNC milling, sand blasted | x2 |
-| #5 | magnet_base_separator | .step, .stl, | aluminium | CNC milling, sand blasted | x1 |
-| #6 | top_magnet_holder_separator | .step, .stl, | aluminium | CNC milling, sand blasted | x1|
+| #1 | [magnet](parts/magnet.STL) | .step, .stl, | NdFeB |  [first4magnets](https://www.first4magnets.com/) | x2, opposite polarity |
+| #2 | [magnet_holder](parts/magnet_holder.STL)  | .step, .stl | brass | CNC milling | x2 |
+| #3 | [handle](parts/handle.STL) |    .step, .stl, | brass | CNC milling | x2 |
+| #4 | [magnet_body_holder](parts/magnet_body_holder.STL) | .step, .stl | aluminium | CNC milling, sand blasted | x2 |
+| #5 | [magnet_base_separator](parts/magnet_base_separator.STL) | .step, .stl, | aluminium | CNC milling, sand blasted | x1 |
+| #6 | [top_magnet_holder_separator](parts/top_magnet_holder_separator.STL) | .step, .stl, | aluminium | CNC milling, sand blasted | x1|
 
 Click on individual .stl files in `parts/` folder to *see 3D parts* in browser.
 Technical drawings for all parts are provided in `parts/technical_drawings.pdf`.
-Schematics of *full assembly* is provided in `assembly/`.
-Photo of *assembled setup* setup is provided in `assembly/photo_of_assembly.jpg`.
+Schematics of [*full assembly*](assembly/assembly.STL) is provided in `assembly/`.
+[Photo of *assembled setup*](assembly/photo_of_assembly.jpg) setup is provided in `assembly/photo_of_assembly.jpg`.
 
 Note that two magnets have their north and south poles oriented such that
 they form Helmholtz pair.
